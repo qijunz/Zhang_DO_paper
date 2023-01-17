@@ -2,6 +2,8 @@
 #          1. 5 taxa level, including phylum, order, class, family, genus
 
 # load required libraries
+library(dplyr)
+
 options(stringsAsFactors = FALSE)
 source("/Users/rootqz/R/QZ_functions.R")
 
@@ -137,3 +139,4 @@ setEPS()
 postscript("~/Desktop/ReyLab/paper/DO_metagenomic/figure/allele_effects_taxa_B2F.eps", height = 2.5, width = 6)
 b2f_out
 dev.off()
+
